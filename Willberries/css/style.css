@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.section_header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    
+}
+ 
+.main-nav {
+    max-width: 583px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.main-nav li {
+    text-transform: uppercase;
+}
+
+.main-nav a {
+    color: #939699;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    color: #2c4258;
+}
+
+.link {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 20px;
+} 
+
+.button {
+    font-family: Lato;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.button--primary {
+    font-size: 14px;
+    line-height: 20px; 
+    font-weight: 900;
+    border-radius: 20px;
+    background: #4592FF;
+}
+
+.button_cart {
+    background: #4592FF url(../img/Cart.svg) no-repeat 16px center;
+    padding: 10px 20px 10px 48px;
+   
+}
+
+.button_now {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.now {
+    padding-left: 10px;
+}
+
+.button_now {
+    padding: 10px 25px;
+}
+
+.button--secondary {
+    background: #3DC47E;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+.promo-block {
+    height: 570px;
+    background: #B4D1E0 url(../img/promo.png) no-repeat 415px center;
+}
+
+.promo_info {
+    max-width: 460px;
+    width: 100%;
+    padding-top: 88px;
+    padding-left: 220px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 70px;
+    color: #262D33;
+}
+
+.desc {
+    width: 335px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5157;
+}
+
+.m {
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.b {
+    margin-bottom: 35px;
+}
+
+.section_shop {
+    margin-top: 35px;
+}
+
